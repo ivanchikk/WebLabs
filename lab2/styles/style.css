@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .4s ease;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    background-color: black;
+}
+
+.header-left {
+    width: 15vw;
+    display: flex;
+    align-items: end;
+    font-size: 36px;
+    color: purple;
+}
+
+.header-left p {
+    padding-left: 15px;
+}
+
+.header-logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.header-list {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-list-item {
+    padding: 10px;
+    font-size: 22px;
+}
+
+.header-list-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-list-item a:hover {
+    color: pink;
+}
+
+.content {
+    height: 65vh;
+    display: flex;
+}
+
+.aside {
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+    background-color: antiquewhite;
+}
+
+.aside-list {
+    list-style-type: none;
+}
+
+.aside-list-item {
+    margin: 10px 0;
+    font-size: 36px;
+}
+
+.aside-list-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.aside-list-item a:hover {
+    color: navy;
+}
+
+main {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 2px;
+    border: 5px dotted black;
+    border-radius: 15px;
+}
+
+main .container img {
+    width: 140px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+main img:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.footer-list-item {
+    padding: 5px;
+    font-size: 26px;
+}
+
+.footer-list-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-list-item a:hover {
+    color: pink;
+}
